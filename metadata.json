@@ -1,5 +1,5 @@
 {
-  "name": "TECHAI_POLLY",
+  "name": "TECHAI POLLY",
   "description": "Real-time bilingual technical interpreter for English and Turkish using Gemini Live API.",
   "requestFramePermissions": [
     "microphone",
