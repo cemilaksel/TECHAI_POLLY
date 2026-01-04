@@ -31,9 +31,10 @@ const App: React.FC = () => {
     isAudioOutputEnabled: settings.isAudioOutputEnabled,
   });
 
-  // Sync StudyGuide context with current pair. If RO is involved, track RO. Otherwise EN.
+  // Sync StudyGuide context with current pair. 
   React.useEffect(() => {
      if (sourceLang === 'RO' || targetLang === 'RO') setCurrentLanguage('RO');
+     else if (sourceLang === 'DE' || targetLang === 'DE') setCurrentLanguage('DE');
      else setCurrentLanguage('EN');
   }, [sourceLang, targetLang, setCurrentLanguage]);
 

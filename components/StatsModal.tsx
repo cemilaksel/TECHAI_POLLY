@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { XMarkIcon, ChartBarIcon, ArrowDownTrayIcon, TrashIcon, SparklesIcon as SparklesIconOutline, BookOpenIcon } from '@heroicons/react/24/outline';
-import { StudyCard } from '../hooks/useStudyGuide';
+import { StudyCard, StudyLanguage } from '../hooks/useStudyGuide';
 
 interface StatsModalProps {
   isOpen: boolean;
@@ -12,7 +12,7 @@ interface StatsModalProps {
   onExport: () => void;
   onClear: () => void;
   essentialList: string[];
-  currentLanguage: 'EN' | 'RO'; // Pass current language for dynamic labels
+  currentLanguage: StudyLanguage; // Pass current language for dynamic labels
 }
 
 const StatsModal: React.FC<StatsModalProps> = ({
@@ -28,7 +28,12 @@ const StatsModal: React.FC<StatsModalProps> = ({
   const totalEssential = essentialList.length;
   const progressPercentage = totalEssential > 0 ? Math.round((essentialMatches.length / totalEssential) * 100) : 0;
 
-  const langTitle = currentLanguage === 'RO' ? 'Romanian' : 'English';
+  const languageTitles: Record<StudyLanguage, string> = {
+    'EN': 'English',
+    'RO': 'Romanian',
+    'DE': 'German'
+  };
+  const langTitle = languageTitles[currentLanguage];
 
   let displayWords = Object.entries(wordStats).sort((a: [string, number], b: [string, number]) => b[1] - a[1]);
   

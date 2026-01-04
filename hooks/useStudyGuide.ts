@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { ESSENTIAL_WORDS } from '../data/essentialWords_en';
 import { ESSENTIAL_WORDS_RO } from '../data/essentialWords_ro';
+import { ESSENTIAL_WORDS_DE } from '../data/essentialWords_de';
 import * as ApiKeyModel from '../models/ApiKeyModel';
 import * as geminiService from '../services/geminiService';
 
@@ -11,27 +12,33 @@ export interface StudyCard {
   isEssential?: boolean;
 }
 
+export type StudyLanguage = 'EN' | 'RO' | 'DE';
+
 export const useStudyGuide = () => {
-  const [currentLanguage, setCurrentLanguage] = useState<'EN' | 'RO'>('EN');
+  const [currentLanguage, setCurrentLanguage] = useState<StudyLanguage>('EN');
 
   const activeEssentialList = useMemo(() => {
-    return currentLanguage === 'RO' ? ESSENTIAL_WORDS_RO : ESSENTIAL_WORDS;
+    switch (currentLanguage) {
+      case 'RO': return ESSENTIAL_WORDS_RO;
+      case 'DE': return ESSENTIAL_WORDS_DE;
+      default: return ESSENTIAL_WORDS;
+    }
   }, [currentLanguage]);
 
-  // Stats are stored per language: { EN: { word: count }, RO: { word: count } }
+  // Stats are stored per language: { EN: { word: count }, RO: { word: count }, DE: { word: count } }
   const [allWordStats, setAllWordStats] = useState<Record<string, Record<string, number>>>(() => {
     try {
       const saved = localStorage.getItem('techInterpreter_allWordStats');
-      return saved ? JSON.parse(saved) : { EN: {}, RO: {} };
-    } catch (e) { return { EN: {}, RO: {} }; }
+      return saved ? JSON.parse(saved) : { EN: {}, RO: {}, DE: {} };
+    } catch (e) { return { EN: {}, RO: {}, DE: {} }; }
   });
 
   // Study guides are stored per language
   const [allStudyGuides, setAllStudyGuides] = useState<Record<string, Record<string, StudyCard>>>(() => {
     try {
       const saved = localStorage.getItem('techInterpreter_allStudyGuides');
-      return saved ? JSON.parse(saved) : { EN: {}, RO: {} };
-    } catch (e) { return { EN: {}, RO: {} }; }
+      return saved ? JSON.parse(saved) : { EN: {}, RO: {}, DE: {} };
+    } catch (e) { return { EN: {}, RO: {}, DE: {} }; }
   });
 
   const [isGeneratingGuide, setIsGeneratingGuide] = useState(false);
@@ -45,12 +52,12 @@ export const useStudyGuide = () => {
   }, [wordStats, activeEssentialList]);
 
   const updateWordStats = (text: string, language: string) => {
-    const lang = language as 'EN' | 'RO';
-    if (lang !== 'EN' && lang !== 'RO') return; 
+    const lang = language as StudyLanguage;
+    if (lang !== 'EN' && lang !== 'RO' && lang !== 'DE') return; 
     
     const normalized = text.toLowerCase();
-    // Support Romanian characters in the regex
-    const words = normalized.match(/[a-zăâîșț']+/gu);
+    // Support Romanian and German characters in the regex
+    const words = normalized.match(/[a-zăâîșțäöüß']+/gu);
     if (words) {
       setAllWordStats(prev => {
         const next = { ...prev };
@@ -92,8 +99,12 @@ export const useStudyGuide = () => {
 
     setIsGeneratingGuide(true);
     try {
-      const languageName = currentLanguage === 'RO' ? 'Romanian' : 'English';
-      const jsonText = await geminiService.generateStudyCards(key, targetList, languageName);
+      const languageMap: Record<StudyLanguage, string> = {
+        'EN': 'English',
+        'RO': 'Romanian',
+        'DE': 'German'
+      };
+      const jsonText = await geminiService.generateStudyCards(key, targetList, languageMap[currentLanguage]);
       if (jsonText) {
         const data = JSON.parse(jsonText);
         if (data.cards) {
