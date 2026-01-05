@@ -1,4 +1,4 @@
-# 🎙️ TECHAIPOLY - Teknik Spesifikasyonlar (SPEC.md)
+# 🎙️ TECHAIPOLY - Teknik Spesifikasyonlar (SPEC.md) -  Analiz & Gereksinimler
 
 TECHAIPOLY, Gemini Live API kullanarak İngilizce, Türkçe, Almanca ve Romence dilleri arasında gerçek zamanlı, düşük gecikmeli teknik çeviri ve dil öğrenimi sağlayan bir "Simultane AI Tercüman" platformudur.
 

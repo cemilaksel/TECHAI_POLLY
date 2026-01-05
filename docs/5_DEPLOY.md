@@ -1,4 +1,4 @@
-# 🚀 TECHAIPOLY - Dağıtım Rehberi (DEPLOY.md)
+# 🚀 TECHAIPOLY - Dağıtım Rehberi (DEPLOY.md) 
 
 Bu doküman, TECHAIPOLY uygulamasının yerel geliştirme ortamından üretim (production) ortamına taşınma sürecini, CI/CD yapılandırmasını ve yayına alım standartlarını tanımlar. Süreçler **SRP (Sorumlulukların Ayrılması)** prensibiyle modülerize edilmiştir.
 

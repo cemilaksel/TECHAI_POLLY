@@ -193,12 +193,18 @@ export const useTranslationSession = ({ onWordDetected, isAudioOutputEnabled }: 
       processor.connect(inputContext.destination);
 
       processor.onaudioprocess = (e) => {
-        if (!isConnectedRef.current) return;
+        // Critical: Solely rely on isConnectedRef and isSessionActiveRef to prevent CANCELLED errors
+        if (!isConnectedRef.current || !isSessionActiveRef.current) return;
+        
         const inputData = e.inputBuffer.getChannelData(0);
         const downsampled = downsampleBuffer(inputData, inputContext.sampleRate, AUDIO_CONSTANTS.TARGET_INPUT_SAMPLE_RATE);
         const base64 = pcmTo16kBase64(downsampled);
         if (base64) {
-            sessionPromise.then(s => s.sendRealtimeInput({ media: { data: base64, mimeType: 'audio/pcm;rate=16000' } }));
+            sessionPromise.then(s => {
+                if (isConnectedRef.current && isSessionActiveRef.current) {
+                    s.sendRealtimeInput({ media: { data: base64, mimeType: 'audio/pcm;rate=16000' } });
+                }
+            });
         }
       };
 

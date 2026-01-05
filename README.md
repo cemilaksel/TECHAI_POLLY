@@ -13,12 +13,12 @@
 
 ## 🌍 Desteklenen Diller
 
-| Bayrak | Dil | Kod | Study Guide |
-|--------|-----|-----|-------------|
-| 🇬🇧 | English (İngilizce) | EN | 3600 kelime |
-| 🇹🇷 | Türkçe | TR | - |
-| 🇩🇪 | Deutsch (Almanca) | DE | 3601 kelime |
-| 🇷🇴 | Română (Romence) | RO | 3600 kelime |
+| Bayrak | Dil                 | Kod | Study Guide  |
+|--------|---------------------|-----|--------------|
+| 🇬🇧     | English (İngilizce) | EN  | 3600 kelime  |
+| 🇹🇷     | Türkçe              | TR  | -            |
+| 🇩🇪     | Deutsch (Almanca)   | DE  | 3601 kelime  |
+| 🇷🇴     | Română (Romence)    | RO  | 3600 kelime  |
 
 ### Çeviri Kombinasyonları
 
@@ -52,13 +52,13 @@
 
 ### Gereksinimler
 
-| Gereksinim | Açıklama |
-|------------|----------|
-| 🌐 **Tarayıcı** | Google Chrome veya Microsoft Edge |
-| 🎤 **Mikrofon** | Dahili veya harici mikrofon |
-| 🔊 **Hoparlör** | Sesli çeviri dinlemek için |
-| 📧 **Google Hesabı** | API key almak için |
-| 🌍 **İnternet** | Stabil internet bağlantısı |
+| Gereksinim         | Açıklama                           |
+|--------------------|------------------------------------|
+| 🌐 **Tarayıcı**    | Google Chrome veya Microsoft Edge  |
+| 🎤 **Mikrofon**    | Dahili veya harici mikrofon        |
+| 🔊 **Hoparlör**    | Sesli çeviri dinlemek için         |
+| 📧 **Google Hesabı**| API key almak için                 |
+| 🌍 **İnternet**    | Stabil internet bağlantısı         |
 
 ### ⚠️ Önemli Notlar
 
@@ -83,10 +83,10 @@
 1. **"Create API key"** butonuna tıklayın
 2. Açılan pencerede:
 
-| Alan | Yazılacak |
-|------|-----------|
-| **Name your key** | `techaipoly` |
-| **Choose project** | Boş bırakın |
+| Alan               | Yazılacak    |
+|--------------------|--------------|
+| **Name your key**  | `techaipoly` |
+| **Choose project** | Boş bırakın  |
 
 3. **"Create key"** butonuna basın
 4. Oluşturulan key'i **kopyalayın** (📋 ikonuna tıklayın)
@@ -139,13 +139,13 @@
 
 ### Üst Menü Butonları
 
-| Buton | İşlev | Açıklama |
-|-------|-------|----------|
-| 🔊 | Ses açık/kapalı | AI sesini açar/kapatır |
-| 🗑️ | Geçmişi temizle | Sohbet geçmişini siler |
-| ⬇️ | İndir | Konuşmayı TXT olarak indirir |
-| 📊 | İstatistikler | Study Guide'ı açar |
-| ⚙️ | Ayarlar | Uygulama ayarlarını açar |
+| Buton | İşlev           | Açıklama                     |
+|-------|-----------------|------------------------------|
+| 🔊    | Ses açık/kapalı | AI sesini açar/kapatır       |
+| 🗑️    | Geçmişi temizle | Sohbet geçmişini siler       |
+| ⬇️    | İndir           | Konuşmayı TXT olarak indirir |
+| 📊    | İstatistikler   | Study Guide'ı açar           |
+| ⚙️    | Ayarlar         | Uygulama ayarlarını açar     |
 
 ---
 
@@ -179,12 +179,12 @@ TECHAIPOLY'de iki ayrı dropdown ile kaynak ve hedef dili seçersiniz:
 
 ### Örnek Senaryolar
 
-| Senaryo | Kaynak | Hedef | Kullanım |
-|---------|--------|-------|----------|
+| Senaryo           | Kaynak | Hedef | Kullanım                        |
+|-------------------|--------|-------|---------------------------------|
 | İngilizce öğrenme | 🇹🇷 TR | 🇬🇧 EN | Türkçe söyle → İngilizce çeviri |
-| Romence pratik | 🇷🇴 RO | 🇹🇷 TR | Romence söyle → Türkçe çeviri |
-| Almanca anlama | 🇩🇪 DE | 🇹🇷 TR | Almanca video → Türkçe çeviri |
-| Teknik çeviri | 🇬🇧 EN | 🇩🇪 DE | İngilizce → Almanca |
+| Romence pratik    | 🇷🇴 RO | 🇹🇷 TR | Romence söyle → Türkçe çeviri   |
+| Almanca anlama    | 🇩🇪 DE | 🇹🇷 TR | Almanca video → Türkçe çeviri   |
+| Teknik çeviri     | 🇬🇧 EN | 🇩🇪 DE | İngilizce → Almanca             |
 
 ---
 
@@ -194,11 +194,11 @@ Her dil için ayrı kelime takip sistemi!
 
 ### Dile Göre Study Guide
 
-| Dil Seçimi | Study Guide | Hedef Kelime |
-|------------|-------------|--------------|
-| 🇬🇧 EN içeren | English Study Guide | 3600 kelime |
-| 🇩🇪 DE içeren | German Study Guide | 3601 kelime |
-| 🇷🇴 RO içeren | Romanian Study Guide | 3600 kelime |
+| Dil Seçimi      | Study Guide           | Hedef Kelime |
+|-----------------|-----------------------|--------------|
+| 🇬🇧 EN içeren   | English Study Guide   | 3600 kelime  |
+| 🇩🇪 DE içeren   | German Study Guide    | 3601 kelime  |
+| 🇷🇴 RO içeren   | Romanian Study Guide  | 3600 kelime  |
 
 ### Study Guide Nasıl Açılır?
 
@@ -242,15 +242,15 @@ Her dil için ayrı kelime takip sistemi!
 
 ### Study Guide Özellikleri
 
-| Özellik | Açıklama |
-|---------|----------|
-| **TOTAL SPOKEN WORDS** | Konuştuğunuz toplam kelime sayısı |
-| **TARGET VOCABULARY** | Hedef listeden kaç kelime kullandığınız |
-| **Top Usage** | En çok kullandığınız kelimeler |
-| **Target Words** | Hedef kelime listesinden kullanımlar |
-| **Generate Guide** | AI ile eş anlamlı ve örnek cümle üretir |
-| **Export TXT** | Çalışma kağıdını indirir |
-| **Reset** | İstatistikleri sıfırlar |
+| Özellik                | Açıklama                                 |
+|------------------------|------------------------------------------|
+| **TOTAL SPOKEN WORDS** | Konuştuğunuz toplam kelime sayısı        |
+| **TARGET VOCABULARY**  | Hedef listeden kaç kelime kullandığınız  |
+| **Top Usage**          | En çok kullandığınız kelimeler           |
+| **Target Words**       | Hedef kelime listesinden kullanımlar     |
+| **Generate Guide**     | AI ile eş anlamlı ve örnek cümle üretir  |
+| **Export TXT**         | Çalışma kağıdını indirir                 |
+| **Reset**              | İstatistikleri sıfırlar                  |
 
 ---
 
@@ -290,23 +290,15 @@ Her dil için ayrı kelime takip sistemi!
 
 **Dil Ayarı:** 🇹🇷 TR → 🇬🇧 EN
 
-**Adımlar:**
-1. ✅ Kaynak dil: **TR**, Hedef dil: **EN** seçin
-2. ✅ Mikrofon butonuna basın
-3. ✅ Türkçe bir cümle söyleyin: *"Bugün hava çok güzel."*
-4. ✅ İngilizce çeviriyi dinleyin: *"The weather is very nice today."*
-5. ✅ Çeviriyi tekrarlayarak telaffuz pratiği yapın
-6. ✅ 📊 Study Guide'dan kelime istatistiklerinizi görün
-
 **Pratik Cümleleri:**
 
-| Türkçe | İngilizce |
-|--------|-----------|
-| Benim adım Ahmet. | My name is Ahmet. |
-| Nerelisiniz? | Where are you from? |
-| İngilizce öğreniyorum. | I am learning English. |
-| Bana yardım eder misiniz? | Can you help me? |
-| Tanıştığıma memnun oldum. | Nice to meet you. |
+| Türkçe                    | İngilizce               |
+|---------------------------|-------------------------|
+| Benim adım Ahmet.         | My name is Ahmet.       |
+| Nerelisiniz?              | Where are you from?     |
+| İngilizce öğreniyorum.    | I am learning English.  |
+| Bana yardım eder misiniz? | Can you help me?        |
+| Tanıştığıma memnun oldum. | Nice to meet you.       |
 
 ---
 
@@ -316,25 +308,17 @@ Her dil için ayrı kelime takip sistemi!
 
 **Dil Ayarı:** 🇹🇷 TR → 🇷🇴 RO
 
-**Adımlar:**
-1. ✅ Kaynak dil: **TR**, Hedef dil: **RO** seçin
-2. ✅ Mikrofon butonuna basın
-3. ✅ Türkçe söyleyin: *"Merhaba, nasılsınız?"*
-4. ✅ Romence çeviriyi dinleyin: *"Bună ziua, ce mai faceți?"*
-5. ✅ Romence kelimeyi tekrarlayın
-6. ✅ 📊 Romanian Study Guide'dan ilerlemenizi takip edin
-
 **Temel Romence Cümleler:**
 
-| Türkçe | Romence | Okunuş |
-|--------|---------|--------|
-| Merhaba | Bună / Salut | Bu-nı / Sa-lut |
-| Teşekkürler | Mulțumesc | Mul-tsu-mesk |
-| Evet / Hayır | Da / Nu | Da / Nu |
-| Lütfen | Te rog | Te rog |
-| Güle güle | La revedere | La re-ve-de-re |
-| Nasılsınız? | Ce mai faceți? | Çe may fa-çets |
-| İyiyim | Sunt bine | Sunt bi-ne |
+| Türkçe       | Romence      | Okunuş        |
+|--------------|--------------|---------------|
+| Merhaba      | Bună / Salut | Bu-nı / Sa-lut|
+| Teşekkürler  | Mulțumesc    | Mul-tsu-mesk  |
+| Evet / Hayır | Da / Nu      | Da / Nu       |
+| Lütfen       | Te rog       | Te rog        |
+| Güle güle    | La revedere  | La re-ve-de-re|
+| Nasılsınız?  | Ce mai faceți?| Çe may fa-çets|
+| İyiyim       | Sunt bine    | Sunt bi-ne    |
 
 ---
 
@@ -344,31 +328,22 @@ Her dil için ayrı kelime takip sistemi!
 
 **Dil Ayarı:** 🇩🇪 DE → 🇹🇷 TR
 
-**Adımlar:**
-1. ✅ Kaynak dil: **DE**, Hedef dil: **TR** seçin
-2. ✅ "Capture Tab Audio" özelliğini açın
-3. ✅ Yan sekmede Almanca video açın
-4. ✅ Almanca konuşmalar Türkçe'ye çevrilecek
-5. ✅ 📊 German Study Guide'dan öğrendiğiniz kelimeleri görün
-
 **Temel Almanca Cümleler:**
 
-| Almanca | Türkçe |
-|---------|--------|
-| Guten Morgen | Günaydın |
-| Wie geht es Ihnen? | Nasılsınız? |
-| Ich verstehe nicht | Anlamıyorum |
-| Sprechen Sie Englisch? | İngilizce konuşuyor musunuz? |
-| Danke schön | Çok teşekkürler |
-| Auf Wiedersehen | Güle güle |
+| Almanca                 | Türkçe                      |
+|-------------------------|-----------------------------|
+| Guten Morgen            | Günaydın                    |
+| Wie geht es Ihnen?      | Nasılsınız?                 |
+| Ich verstehe nicht      | Anlamıyorum                 |
+| Sprechen Sie Englisch?  | İngilizce konuşuyor musunuz?|
+| Danke schön             | Çok teşekkürler             |
+| Auf Wiedersehen         | Güle güle                   |
 
 ---
 
 ### 🎬 Senaryo 4: YouTube Video Çevirisi
 
 **Amaç:** İngilizce YouTube videolarını anlık Türkçe çeviri ile izlemek
-
-**Dil Ayarı:** 🇬🇧 EN → 🇹🇷 TR
 
 **Adımlar:**
 1. ✅ Kaynak dil: **EN**, Hedef dil: **TR** seçin
@@ -379,14 +354,6 @@ Her dil için ayrı kelime takip sistemi!
    - **"Chrome Tab"** sekmesini seçin
    - YouTube sekmesini seçin
    - ⚠️ **"Sesi de paylaş"** kutusunu İŞARETLEYİN!
-6. ✅ **"Paylaş"** butonuna basın
-7. ✅ YouTube sekmesine geçip videoyu oynatın
-8. ✅ Çeviriler otomatik gelecek
-
-**⚠️ Önemli:**
-- "Sesi de paylaş" kutusunu işaretlemeyi unutmayın!
-- Video sesinin açık olduğundan emin olun
-- Bu özellik sadece **bilgisayarda** çalışır
 
 ---
 
@@ -394,23 +361,13 @@ Her dil için ayrı kelime takip sistemi!
 
 **Amaç:** İngilizce podcast dinlerken Türkçe çeviri almak
 
-**Dil Ayarı:** 🇬🇧 EN → 🇹🇷 TR
-
-**Adımlar:**
-1. ✅ Kaynak dil: **EN**, Hedef dil: **TR** seçin
-2. ✅ Spotify/Apple Podcasts'i yan sekmede açın
-3. ✅ "Capture Tab Audio" özelliğini aktif edin
-4. ✅ Podcast sekmesini seçin ve paylaşın
-5. ✅ Oynatma hızını **0.75x** yapın (daha iyi çeviri için)
-6. ✅ Dinleyin ve çevirileri takip edin
-
 **Önerilen Podcast'ler:**
 
-| Podcast | Seviye | Konu |
-|---------|--------|------|
-| 6 Minute English (BBC) | Başlangıç | Genel konular |
-| TED Talks Daily | Orta | İlham verici |
-| The Daily (NYT) | İleri | Haberler |
+| Podcast                | Seviye    | Konu           |
+|------------------------|-----------|----------------|
+| 6 Minute English (BBC) | Başlangıç | Genel konular  |
+| TED Talks Daily        | Orta      | İlham verici   |
+| The Daily (NYT)        | İleri     | Haberler       |
 
 ---
 
@@ -418,24 +375,15 @@ Her dil için ayrı kelime takip sistemi!
 
 **Amaç:** İngilizce iş görüşmesine hazırlanmak
 
-**Dil Ayarı:** 🇬🇧 EN → 🇹🇷 TR (kontrol için)
-
-**Adımlar:**
-1. ✅ Kaynak dil: **EN**, Hedef dil: **TR** seçin
-2. ✅ Mikrofon butonuna basın
-3. ✅ İngilizce cevaplarınızı söyleyin
-4. ✅ Türkçe çeviriyi kontrol edin - doğru anlaşılıyor mu?
-5. ✅ Study Guide'dan iş İngilizcesi kelimelerinizi takip edin
-
 **Sık Sorulan Sorular:**
 
-| # | Soru (EN) | Türkçe Karşılık |
-|---|-----------|-----------------|
-| 1 | "Tell me about yourself." | Kendinizden bahsedin. |
-| 2 | "What are your strengths?" | Güçlü yönleriniz neler? |
-| 3 | "Why do you want this job?" | Bu işi neden istiyorsunuz? |
-| 4 | "Where do you see yourself in 5 years?" | 5 yıl sonra kendinizi nerede görüyorsunuz? |
-| 5 | "Do you have any questions?" | Sorularınız var mı? |
+| # | Soru (EN)                                | Türkçe Karşılık                         |
+|---|------------------------------------------|-----------------------------------------|
+| 1 | "Tell me about yourself."                | Kendinizden bahsedin.                   |
+| 2 | "What are your strengths?"               | Güçlü yönleriniz neler?                 |
+| 3 | "Why do you want this job?"              | Bu işi neden istiyorsunuz?              |
+| 4 | "Where do you see yourself in 5 years?"  | 5 yıl sonra kendinizi nerede görüyorsunuz?|
+| 5 | "Do you have any questions?"             | Sorularınız var mı?                     |
 
 ---
 
@@ -443,32 +391,22 @@ Her dil için ayrı kelime takip sistemi!
 
 **Amaç:** Romanya seyahati için temel Romence öğrenmek
 
-**Dil Ayarı:** 🇹🇷 TR → 🇷🇴 RO
-
 **Havalimanı/Otel:**
 
-| Türkçe | Romence |
-|--------|---------|
-| Rezervasyonum var | Am o rezervare |
-| Oda numarası kaç? | Care este numărul camerei? |
-| WiFi şifresi ne? | Care este parola WiFi? |
-| Kahvaltı dahil mi? | Micul dejun este inclus? |
+| Türkçe                   | Romence                       |
+|--------------------------|-------------------------------|
+| Rezervasyonum var        | Am o rezervare                |
+| Oda numarası kaç?        | Care este numărul camerei?    |
+| WiFi şifresi ne?         | Care este parola WiFi?        |
+| Kahvaltı dahil mi?       | Micul dejun este inclus?      |
 
 **Restoran:**
 
-| Türkçe | Romence |
-|--------|---------|
-| Menüyü alabilir miyim? | Pot să văd meniul? |
-| Hesap lütfen | Nota, vă rog |
-| Çok lezzetliydi | A fost foarte gustos |
-
-**Acil Durumlar:**
-
-| Türkçe | Romence |
-|--------|---------|
-| Yardım! | Ajutor! |
-| Hastane nerede? | Unde este spitalul? |
-| Polisi arayın | Chemați poliția |
+| Türkçe                   | Romence                       |
+|--------------------------|-------------------------------|
+| Menüyü alabilir miyim?   | Pot să văd meniul?            |
+| Hesap lütfen             | Nota, vă rog                  |
+| Çok lezzetliydi          | A fost foarte gustos          |
 
 ---
 
@@ -476,24 +414,16 @@ Her dil için ayrı kelime takip sistemi!
 
 **Amaç:** İngilizce teknik metinleri anlamak
 
-**Dil Ayarı:** 🇬🇧 EN → 🇹🇷 TR
-
-**Adımlar:**
-1. ✅ Kaynak dil: **EN**, Hedef dil: **TR** seçin
-2. ✅ Teknik metni sesli okuyun
-3. ✅ Türkçe çeviriyi alın
-4. ✅ Teknik terimleri Study Guide'dan takip edin
-
 **Teknik Terimler:**
 
-| İngilizce | Türkçe |
-|-----------|--------|
-| function | fonksiyon |
-| variable | değişken |
-| array | dizi |
-| loop | döngü |
-| API | Uygulama Programlama Arayüzü |
-| database | veritabanı |
+| İngilizce | Türkçe                        |
+|-----------|-------------------------------|
+| function  | fonksiyon                     |
+| variable  | değişken                      |
+| array     | dizi                          |
+| loop      | döngü                         |
+| API       | Uygulama Programlama Arayüzü  |
+| database  | veritabanı                    |
 
 ---
 
@@ -501,145 +431,64 @@ Her dil için ayrı kelime takip sistemi!
 
 **Amaç:** Farklı dillerde konuşan katılımcılarla iletişim
 
-**Örnek:** Almanca konuşan meslektaşla toplantı
-
-**Dil Ayarı:** 🇩🇪 DE → 🇹🇷 TR
-
-**Adımlar:**
-1. ✅ Kaynak dil: **DE**, Hedef dil: **TR** seçin
-2. ✅ Meslektaşınız Almanca konuşsun
-3. ✅ Türkçe çeviriyi okuyun/dinleyin
-4. ✅ Cevap vermek için dilleri değiştirin: **TR → DE**
-
 **Toplantı İfadeleri (Almanca):**
 
-| Türkçe | Almanca |
-|--------|---------|
-| Başlayalım mı? | Sollen wir anfangen? |
-| Anlıyorum | Ich verstehe |
-| Tekrar eder misiniz? | Können Sie das wiederholen? |
-| Teşekkürler, toplantı için | Danke für das Meeting |
+| Türkçe                   | Almanca                       |
+|--------------------------|-------------------------------|
+| Başlayalım mı?           | Sollen wir anfangen?          |
+| Anlıyorum                | Ich verstehe                  |
+| Tekrar eder misiniz?     | Können Sie das wiederholen?   |
+| Teşekkürler, toplantı için| Danke für das Meeting         |
 
 ---
 
 ### ⏰ Senaryo 10: Günlük 10 Dakika Rutini
 
-**Amaç:** Her gün düzenli pratik yaparak ilerleme kaydetmek
-
 **Haftalık Program:**
 
-| Gün | Dil | Konu | Örnek |
-|-----|-----|------|-------|
-| Pazartesi | 🇬🇧 EN | 🌤️ Hava | "It's sunny today." |
-| Salı | 🇩🇪 DE | 🍝 Yemek | "Ich koche gerne." |
-| Çarşamba | 🇷🇴 RO | 👋 Selamlaşma | "Bună ziua!" |
-| Perşembe | 🇬🇧 EN | 💼 İş | "I have a meeting." |
-| Cuma | 🇩🇪 DE | 🛒 Alışveriş | "Was kostet das?" |
-| Cumartesi | 🇷🇴 RO | 📅 Planlar | "Ce faci mâine?" |
-| Pazar | 📊 Tümü | Değerlendirme | Study Guide incele |
-
-**Günlük Rutin:**
-```
-⏰ 10 dakika konuşma pratiği
-📊 İstatistikleri kontrol et
-📝 Yeni 5 kelime öğren
-💾 Kaydı indir ve tekrar oku
-```
-
-**Haftalık Hedefler:**
-
-| Hafta | Hedef |
-|-------|-------|
-| 1. Hafta | Her dilden 20 kelime |
-| 2. Hafta | Her dilden 40 kelime |
-| 3. Hafta | Her dilden 60 kelime |
-| 4. Hafta | Her dilden 80 kelime |
-
----
-
-### 🎤 Senaryo 11: Sesame AI ile Sohbet
-
-**Amaç:** Sesame AI avatarları ile İngilizce pratik yapmak
-
-**Dil Ayarı:** 🇬🇧 EN → 🇹🇷 TR
-
-**Adımlar:**
-1. ✅ **"Open Sesame"** linkine tıklayın
-2. ✅ Sesame sekmesi açılacak
-3. ✅ TECHAIPOLY'de "Capture Tab Audio" açın
-4. ✅ Sesame sekmesini paylaşın
-5. ✅ Avatar ile İngilizce konuşun
-6. ✅ Avatarın cevapları Türkçe'ye çevrilecek
-
----
-
-### 💾 Senaryo 12: Ödevi Kaydetme
-
-**Amaç:** Pratik kaydını öğretmene göndermek
-
-**Adımlar:**
-1. ✅ En az 5 dakika konuşma pratiği yapın
-2. ✅ Üst menüdeki **⬇️** ikonuna tıklayın
-3. ✅ Dosya otomatik inecek: `Conversation_2025-01-06.txt`
-4. ✅ Dosyayı öğretmeninize gönderin
-
-**Dosya İçeriği Örneği:**
-```
-TECHAIPOLY - CONVERSATION HISTORY
-========================================
-Language Pair: RO ↔ TR
-
-[10:15:23] Speaker (TR): Merhaba, nasılsınız?
-[10:15:23] Interpreter (RO): Bună ziua, ce mai faceți?
-----------------------------------------
-[10:15:35] Speaker (RO): Sunt bine, mulțumesc.
-[10:15:35] Interpreter (TR): İyiyim, teşekkürler.
-----------------------------------------
-```
+| Gün       | Dil    | Konu           | Örnek               |
+|-----------|--------|----------------|---------------------|
+| Pazartesi | 🇬🇧 EN | 🌤️ Hava        | "It's sunny today." |
+| Salı      | 🇩🇪 DE | 🍝 Yemek       | "Ich koche gerne."  |
+| Çarşamba  | 🇷🇴 RO | 👋 Selamlaşma  | "Bună ziua!"        |
+| Perşembe  | 🇬🇧 EN | 💼 İş          | "I have a meeting." |
+| Cuma      | 🇩🇪 DE | 🛒 Alışveriş   | "Was kostet das?"   |
+| Cumartesi | 🇷🇴 RO | 📅 Planlar     | "Ce faci mâine?"    |
+| Pazar     | 📊 Tümü| Değerlendirme  | Study Guide incele  |
 
 ---
 
 ## ⚙️ Ayarlar
 
-Sağ üstteki **⚙️** ikonuna tıklayarak erişin.
-
 ### 🔑 Gemini API Key
 
-| Alan | İşlev |
-|------|-------|
+| Alan          | İşlev                                |
+|---------------|--------------------------------------|
 | **Key Alanı** | API key'iniz gizli gösterilir (●●●●) |
-| **Save Key** | Yeni key kaydetmek için |
-| **Clear** | Mevcut key'i silmek için |
+| **Save Key**  | Yeni key kaydetmek için              |
+| **Clear**     | Mevcut key'i silmek için             |
 
 ### 🎤 Microphone Source
 
-| Seçenek | Ne Zaman Kullanılır |
-|---------|---------------------|
-| **Varsayılan** | Normal kullanım |
-| **Dahili Mikrofon** | Laptop kullanıyorsanız |
-| **Harici Mikrofon** | USB/Bluetooth mikrofon |
-| **Kulaklık Mikrofonu** | Kulaklık takılıysa |
-
-### 🔊 Include System Audio
-
-Tab Audio özelliği için gerekli. Video/podcast çevirisi yapacaksanız açın.
-
-### 📺 Ambient / TV Mode
-
-Oda veya TV sesini yakalamak için. Uzaktan mikrofon kullanıyorsanız açın.
+| Seçenek                | Ne Zaman Kullanılır          |
+|------------------------|------------------------------|
+| **Varsayılan**         | Normal kullanım              |
+| **Dahili Mikrofon**    | Laptop kullanıyorsanız       |
+| **Harici Mikrofon**    | USB/Bluetooth mikrofon       |
+| **Kulaklık Mikrofonu** | Kulaklık takılıysa           |
 
 ---
 
 ## 🔧 Sorun Giderme
 
-| Sorun | Çözüm |
-|-------|-------|
-| **Mikrofon İzni** | Adres çubuğundaki 🔒 → "İzin Ver" |
-| **API Key Hatası** | Key'in başında/sonunda boşluk olmadığından emin olun |
-| **Ses Gelmiyor** | 🔊 ikonunun ve bilgisayar sesinin açık olduğunu kontrol edin |
-| **Tab Audio Çalışmıyor** | "Sesi de paylaş" kutusunu işaretleyin |
-| **Yanlış Dil Algılama** | Kaynak dili manuel seçin |
-| **Study Guide Yüklenmiyor** | Sayfayı yenileyin (F5) |
+| Sorun                       | Çözüm                                           |
+|-----------------------------|-------------------------------------------------|
+| **Mikrofon İzni**           | Adres çubuğundaki 🔒 → "İzin Ver"               |
+| **API Key Hatası**          | Key'in başında/sonunda boşluk olmadığından emin olun |
+| **Ses Gelmiyor**            | 🔊 ikonunun ve bilgisayar sesinin açık olduğunu kontrol edin |
+| **Tab Audio Çalışmıyor**     | "Sesi de paylaş" kutusunu işaretleyin           |
+| **Yanlış Dil Algılama**     | Kaynak dili manuel seçin                        |
+| **Study Guide Yüklenmiyor** | Sayfayı yenileyin (F5)                          |
 
 ---
 

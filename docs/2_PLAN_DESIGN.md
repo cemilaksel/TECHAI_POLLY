@@ -1,4 +1,4 @@
-# 🗺️ TECHAIPOLY Teknik Plan & Mimari Dokümantasyon
+# 🗺️ TECHAIPOLY Teknik Plan & Mimari Dokümantasyon - Tasarım
 
 TECHAIPOLY, düşük gecikmeli (low-latency) sesli çeviri ve teknik terim odaklı dil öğrenme asistanıdır. Bu doküman, projenin teknik yapısını, "Vibe Coding" prensiplerini ve mimari kararlarını detaylandırır.
 

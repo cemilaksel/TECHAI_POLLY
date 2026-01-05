@@ -1,4 +1,4 @@
-# 🧪 TECHAIPOLY - Test Spesifikasyonları (TEST.md)
+# 🧪 TECHAIPOLY - Test Spesifikasyonları (TEST.md) - Test Senaryoları
 
 Bu doküman, TECHAIPOLY uygulamasının kalite güvence süreçlerini, test senaryolarını ve kabul kriterlerini tanımlar. Test süreçleri **SRP (Single Responsibility)** ve **MVC** mimari katmanlarına uygun olarak modüler şekilde tasarlanmıştır.
 

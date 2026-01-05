@@ -1,4 +1,4 @@
-# 💻 TECHAIPOLY - Kod Standartları ve Stil Rehberi (CODE.md)
+# 💻 TECHAIPOLY - Kod Standartları ve Stil Rehberi (CODE.md) : Kodlama Standartları
 
 Bu doküman, TECHAIPOLY projesinde kod kalitesini, okunabilirliği ve mimari tutarlılığı korumak için takip edilmesi gereken standartları tanımlar. Proje, **MVC** ve **SRP** prensiplerini temel alır.
 
